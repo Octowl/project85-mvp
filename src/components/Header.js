@@ -6,9 +6,8 @@ const Header = () => (
     <span className="icn-logo"><i className="material-icons">lightbulb_outline</i></span>
     <ul className="main-nav">
       <li><NavLink exact to="/">Home</NavLink></li>
-      <li><NavLink to="/about">About</NavLink></li>
-      <li><NavLink to="/teachers">Teachers</NavLink></li>
-      <li><NavLink to="/courses">Courses</NavLink></li>
+      <li><NavLink to="/igcse">IGCSE</NavLink></li>
+      <li><NavLink to="/a-level">A Level</NavLink></li>
     </ul>
   </header>
 );
