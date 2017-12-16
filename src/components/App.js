@@ -3,7 +3,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import Header from './Header';
 import Home from './Home';
-import ALevel from './ALevel';
+import IGCSE from './IGCSE';
+import ComingSoon from './ComingSoon';
 import NotFound from './NotFound';
 
 class App extends Component {
@@ -14,8 +15,8 @@ class App extends Component {
           <Header />
           <Switch>
             <Route exact path="/" component={Home} />
-            {/*<Route path="/igcse" component={IGCSE} />*/}
-            <Route path="/a-level" component={ALevel} />*/}
+            <Route path="/igcse" component={IGCSE} />
+            <Route path="/a-level" component={ComingSoon} />
             <Route component={NotFound} />
          </Switch>
         </div>
